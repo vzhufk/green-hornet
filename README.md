@@ -1,6 +1,6 @@
 # :poop: GreenHornet
 
-Maluyk AI Telegram Bot
+Maluyk AI Telegram Bot [@greenhornetbot](https://t.me/greenhornetbot)
 
 ### :poop: Purpose:
 
@@ -19,10 +19,10 @@ npm i
 
 Copy `sample.env` file. Rename new one to `.env` and provide needed credentials/configs.
 
-To start athing you need to:
+To start anything you need to:
 
 ```
-npm tun start:dev
+npm run start:dev
 ```
 
 ### :speech_balloon: Customize:
