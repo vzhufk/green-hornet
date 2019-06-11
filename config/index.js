@@ -1,19 +1,19 @@
-import dotenv from "dotenv";
+import dotenv from 'dotenv'
 
-let env = process.env.NODE_ENV;
+let env = process.env.NODE_ENV
 
 if (!env) {
-  dotenv.config();
-  env = process.env.NODE_ENV;
+  dotenv.config()
+  env = process.env.NODE_ENV
 }
 
 export default {
   env: {
-    dev: !env || env === "development",
-    prod: env && env === "production"
+    dev: !env || env === 'development',
+    prod: env && env === 'production'
   },
   telegram: {
     token: process.env.TELEGRAM_TOKEN
   },
-  lang: process.env.LANGUAGE || "ru"
-};
+  lang: process.env.LANGUAGE || 'ru'
+}
